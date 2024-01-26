@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+body {
+  background-image: url("assets/bg2.png");
+  /* background-color: #cccccc; */
+  
+  /* background: #343541; */
+}
+
+#message-box {
+  background-color: #282828;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#close-btn {
+  float: right;
+  background-color: #282828;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+html {
+  height: 100%;
+}
+html, body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+.pd-5vw{
+  padding: 5vw;
+}
+
+.dpd-20{
+  padding-bottom: 20px;
+}
+.text-center{
+  text-align: center;
+}
+
+.text-purple{
+  color: #6435c9;
+}
+.text-grey{
+  color: #5f7f89;
+}
+.text-blue{
+  color: #4fc1ea;
+}
+
+.text-size-20-vh{
+  font-size: 20vh;
+  line-height: normal;
+}
+
+.text-size-10-vh{
+  font-size: 10vh;
+}
+
+.text-size-5-vh{
+  font-size: 5vh;
+}
+.text-size-18{
+  font-size: 18px;
+}
+.text-height-1-5{
+  line-height: 1.5;
+}
+
+.bg-404{
+  height: 100%;
+  position: relative;
+  background: #eee;
+  background: -moz-linear-gradient(top, rgba(232,247,252,1) 0%, rgba(249,249,249,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(232,247,252,1) 0%,rgba(249,249,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(232,247,252,1) 0%,rgba(249,249,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8f7fc', endColorstr='#f9f9f9',GradientType=0 ); /* IE6-9 */
+}
+
+.bottom-copy{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 140px;
+  text-align: center;
+}
+
+
+.gears-grd1{
+  stop-color:#4fc1ea; stop-opacity:1
+}
+.gears-grd2{
+  stop-color:#6435c9; stop-opacity:1
+}
+
+.gears-img{
+  position: absolute;
+  text-align: right;
+  right: 10vw;
+  bottom: 10vh;
+  width: 40%;
+}
+.gears-img img{
+  max-width: 100%;
+}
+
+.machine {
+  width: 60vmin;
+}
+
+.small-shadow, .medium-shadow, .large-shadow {
+  fill: rgba(0, 0, 0, 0.05); }
+
+.small {
+  -webkit-animation: counter-rotation 2.5s infinite linear;
+  -moz-animation: counter-rotation 2.5s infinite linear;
+  -o-animation: counter-rotation 2.5s infinite linear;
+  animation: counter-rotation 2.5s infinite linear;
+  -webkit-transform-origin: 100.136px 225.345px;
+  -ms-transform-origin: 100.136px 225.345px;
+  transform-origin: 100.136px 225.345px; }
+
+.small-shadow {
+  -webkit-animation: counter-rotation 2.5s infinite linear;
+  -moz-animation: counter-rotation 2.5s infinite linear;
+  -o-animation: counter-rotation 2.5s infinite linear;
+  animation: counter-rotation 2.5s infinite linear;
+  -webkit-transform-origin: 110.136px 235.345px;
+  -ms-transform-origin: 110.136px 235.345px;
+  transform-origin: 110.136px 235.345px; }
+
+.medium {
+  -webkit-animation: rotation 3.75s infinite linear;
+  -moz-animation: rotation 3.75s infinite linear;
+  -o-animation: rotation 3.75s infinite linear;
+  animation: rotation 3.75s infinite linear;
+  -webkit-transform-origin: 254.675px 379.447px;
+  -ms-transform-origin: 254.675px 379.447px;
+  transform-origin: 254.675px 379.447px; }
+
+.medium-shadow {
+  -webkit-animation: rotation 3.75s infinite linear;
+  -moz-animation: rotation 3.75s infinite linear;
+  -o-animation: rotation 3.75s infinite linear;
+  animation: rotation 3.75s infinite linear;
+  -webkit-transform-origin: 264.675px 389.447px;
+  -ms-transform-origin: 264.675px 389.447px;
+  transform-origin: 264.675px 389.447px; }
+
+.large {
+  -webkit-animation: counter-rotation 5s infinite linear;
+  -moz-animation: counter-rotation 5s infinite linear;
+  -o-animation: counter-rotation 5s infinite linear;
+  animation: counter-rotation 5s infinite linear;
+  -webkit-transform-origin: 461.37px 173.694px;
+  -ms-transform-origin: 461.37px 173.694px;
+  transform-origin: 461.37px 173.694px; }
+
+.large-shadow {  
+  -webkit-animation: counter-rotation 5s infinite linear;
+  -moz-animation: counter-rotation 5s infinite linear;
+  -o-animation: counter-rotation 5s infinite linear;
+  animation: counter-rotation 5s infinite linear;
+  -webkit-transform-origin: 471.37px 183.694px;
+  -ms-transform-origin: 471.37px 183.694px;
+  transform-origin: 471.37px 183.694px; }
+
+@-webkit-keyframes rotation {
+  from {-webkit-transform: rotate(0deg);}
+  to   {-webkit-transform: rotate(359deg);}
+}
+@-moz-keyframes rotation {
+  from {-moz-transform: rotate(0deg);}
+  to   {-moz-transform: rotate(359deg);}
+}
+@-o-keyframes rotation {
+  from {-o-transform: rotate(0deg);}
+  to   {-o-transform: rotate(359deg);}
+}
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to   {transform: rotate(359deg);}
+}
+
+@-webkit-keyframes counter-rotation {
+  from {-webkit-transform: rotate(359deg);}
+  to   {-webkit-transform: rotate(0deg);}
+}
+@-moz-keyframes counter-rotation {
+  from {-moz-transform: rotate(359deg);}
+  to   {-moz-transform: rotate(0deg);}
+}
+@-o-keyframes counter-rotation {
+  from {-o-transform: rotate(359deg);}
+  to   {-o-transform: rotate(0deg);}
+}
+@keyframes counter-rotation {
+  from {transform: rotate(359deg);}
+  to   {transform: rotate(0deg);}
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-hide{
+    display: none;
+  }
+  .text-size-10-vh{
+    font-size: 6vh;
+  }
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+#copyright{
+  font-size: 30px;
+  position: absolute;
+  top: 80%;
+  opacity: 0.2;
+}
+#copyright a{
+ list-style: none;
+ text-decoration: none;
+ color: rgb(255, 255, 255)
+}
+/* Card */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 0 10px;
+  /* background-color: #40414f; */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0);
+}
+
+.card-header {
+  padding: 2rem;
+  /* border-bottom: 1px solid lightgray; */
+}
+
+.card-header h3 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.card-body {
+  padding: 2rem;
+  background-color: rgba(40,40,40);
+}
+
+/* Card */
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  /* background: #343541; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#chat_container {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  padding-bottom: 20px;
+  scroll-behavior: smooth;
+}
+
+/* hides scrollbar */
+#chat_container::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 15px;
+}
+
+.ai {
+  background: rgb(40, 40, 40);
+}
+
+.chat {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.profile {
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+
+  background: #5436DA;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai .profile {
+  background: #10a37f;
+}
+
+.profile img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.message {
+  flex: 1;
+
+  color: #dcdcdc;
+  font-size: 20px;
+
+  max-width: 100%;
+  overflow-x: scroll;
+
+  /*
+   * white space refers to any spaces, tabs, or newline characters that are used to format the CSS code
+   * specifies how white space within an element should be handled. It is similar to the "pre" value, which tells the browser to treat all white space as significant and to preserve it exactly as it appears in the source code.
+   * The pre-wrap value allows the browser to wrap long lines of text onto multiple lines if necessary.
+   * The default value for the white-space property in CSS is "normal". This tells the browser to collapse multiple white space characters into a single space, and to wrap text onto multiple lines as needed to fit within its container.
+  */
+  white-space: pre-wrap; 
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* hides scrollbar */
+.message::-webkit-scrollbar {
+  display: none;
+}
+
+form {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #282828;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+textarea {
+  width: 100%;
+
+  color: #fff;
+  font-size: 18px;
+
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+}
+
+form img {
+  width: 30px;
+  height: 30px;
+}

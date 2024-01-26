@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/logo_ai 1.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LuciX- Your coding AI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="message-box">
+        <p style="text-transform: capitalize; font-size: 20px">
+          Our new service VisionBuild is Live:
+          <a
+            style="color: aqua"
+            href="https://visionbuilds.netlify.app"
+            target="_blank"
+            >VisionBuild</a
+          >
+          Click Here To Visit. <br />Here You can generate Image Using Text
+        </p>
+        <button id="close-btn"><span>X</span></button>
+      </div>
+
+      <div class="info" id="hide">
+        <h1 id="typetext"></h1>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Example</h3>
+            <h3>I can answer any question</h3>
+          </div>
+          <div class="card-body">
+            <p></p>
+            <p>"Write a Blog on Human psychology"</p>
+            <p>"Explain Theory Of Relativity"</p>
+            <p>"Explain Quadratic Formula: x = −b ± √b²-4ac/2a."</p>
+            <p>"Top 10 ways to grow business"</p>
+          </div>
+        </div>
+
+        <h5 id="copyright">
+          Copyright by
+          <a href="https://www.instagram.com/thechandrapalsinghrajput/"
+            >LuciX-</a
+          >
+        </h5>
+      </div>
+      <div id="chat_container"></div>
+
+      <form>
+        <textarea
+          name="prompt"
+          rows="1"
+          cols="1"
+          placeholder="Ask Anything..."
+        ></textarea>
+        <button type="submit" id="btn_click">
+          <img src="assets/send.svg" />
+        </button>
+      </form>
+    </div>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
